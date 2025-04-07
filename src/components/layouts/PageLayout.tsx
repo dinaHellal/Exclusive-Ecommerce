@@ -2,10 +2,10 @@
 import Header from './Header';
 import Footer from './Footer';
 import Banner from './Bannar';
-import React, { useState } from 'react'; 
-
+import  { useState } from 'react'; 
 import { Outlet } from 'react-router';
 import { useTranslation } from 'react-i18next';
+
 export default function PageLayout(){
   const{ i18n } = useTranslation();
 
